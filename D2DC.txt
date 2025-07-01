@@ -1,0 +1,53 @@
+// class Main{
+   // public static void main(String[]args){
+     //   int age=20;
+       // if (age>18){
+         //   System.out.println("You can vote");
+        //}else{
+          //  System.out.println("You can't vote");
+        //}
+    //}
+//}
+//class main{
+  //  public static void main(String[]args){
+    //    int age=19;
+      //  String name="Bhavya";
+        //double height=1.84;
+        //boolean student=true;
+        //char div='A';
+        
+        //System.out.println("I'm  "+age +" years old");
+        //System.out.println("My name is "+name);
+        //System.out.println("I'm "+height+" meters tall");
+        //System.out.println("I'm a student at PU "+ student);
+        //System.out.println("I'm from "+div +" divison");
+    //}
+//}
+
+//class main{
+  //  public static void main(String[]args){
+    //    System.out.println("Nine's Table ");
+        
+      //  int num=5;
+        //for (int i=1;i<=10;i++){
+          //  System.out.println(num*i);
+        //}
+        //System.out.println("Finished!");
+    //}
+    
+//}
+import java.util.Scanner;
+class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        
+         System.out.print("Enter First Number: ");
+        int a = sc.nextInt();
+        
+         System.out.print("Enter Second Number: ");
+        int b = sc.nextInt();
+        
+        System.out.println("Sum is "+(a-b));
+        
+    }
+}
